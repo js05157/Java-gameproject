@@ -92,8 +92,8 @@ java --module-path "bin;jlayer-1.0.1.jar" --module Dodging_game/dodging_game_2.M
 1. **File → Import → General → Existing Projects into Workspace**에서 저장소 폴더를 가져옵니다.
 2. 프로젝트의 JRE를 **JavaSE-17 / JDK 17**로 설정합니다.
 3. **Build Path → Configure Build Path → Libraries**에서 기존 개인 PC 경로를 가리키는 JLayer 항목을 제거합니다.
-4. **Modulepath → Add JARs...**에서 이 프로젝트의 `jlayer-1.0.1.jar`를 추가합니다.
-5. `src/dodging_game_2/Main.java`를 **Run As → Java Application**으로 실행합니다.
+4. Modulepath → Add JARs...에서 이 프로젝트의 'jlayer-1.0.1.jar'를 추가합니다.
+5. 'src/dodging_game_2/Main.java'를 **Run As → Java Application**으로 실행합니다.
 
 저장소의 `.classpath`에는 원래 개발 환경의 절대 경로가 남아 있어, Eclipse에서는 라이브러리 경로를 한 번 다시 지정해야 합니다.
 
